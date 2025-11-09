@@ -55,12 +55,12 @@ const tiles = [];
 
 const cars = [];
 
-cars.push(new Car(0.5, 0.5, controlsWASD, keys, "/assets/car/red_truck.png", "/assets/tile/red_tile.png", "red"));
-cars.push(new Car(0.5, 0.5, controlsArrow, keys, "/assets/car/blue_truck.png", "/assets/tile/blue_tile.png", "blue"));
+cars.push(new Car(0.5, 0.5, controlsWASD, keys, "/slippery-cars/assets/car/red_truck.png", "/slippery-cars/assets/tile/red_tile.png", "red"));
+cars.push(new Car(0.5, 0.5, controlsArrow, keys, "/slippery-cars/assets/car/blue_truck.png", "/slippery-cars/assets/tile/blue_tile.png", "blue"));
 
 for(let i = 0; i < 32; i++) {
   for(let j = 0; j < 16; j++) {
-    tiles.push(new Tile(i, j, "/assets/tile/default_tile.png"));
+    tiles.push(new Tile(i, j, "/slippery-cars/assets/tile/default_tile.png"));
   }
 }
 
